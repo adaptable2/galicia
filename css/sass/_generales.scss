@@ -1,0 +1,26 @@
+$colorPrincipal: #60294C;
+$colorSecundario: #C7A89A;
+$gris: #707070;
+
+body{
+	color: $gris;
+}
+.color{
+	&-prin{
+		color: $colorPrincipal;
+	}
+	&-secu{
+		color: $colorSecundario;
+	}
+	&-gris{
+		color:$gris;
+	}
+}
+.bg{
+	&-prin{
+		background: $colorPrincipal;
+	}
+	&-secu{
+		background: $colorSecundario;
+	}
+}
