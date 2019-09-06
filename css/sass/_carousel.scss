@@ -1,7 +1,7 @@
+.carrusel{
+	margin: 30px 0;
+}
 .carou-beneficios{
-	// padding: 50px 30px;
-	// padding-top: 50px;
-	// padding-bottom: 50px;
 	position: relative;
 	h5{
 		border-bottom: solid 4px $colorPrincipal;
@@ -16,7 +16,6 @@
 	.owl-stage-outer{
 		padding-top: 50px;
 		padding-bottom: 50px;
-		// box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
 	}
 	.text-carou{
 		display: flex;
@@ -25,11 +24,6 @@
 		flex-direction: column;
 	}
 	.owl-nav{
-		position: absolute;
-		top: 50%;
-		transform: translatey(-50%);
-		left: 0;
-		width: 100%;
 		span{
 			display: none;
 		}
@@ -59,14 +53,19 @@
 				border-color: transparent transparent transparent $colorPrincipal;
 			}
 		}
-		.owl-next{
-			float:right;
-		}
+	}
+}
+.owl-nav{
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	left: 0;
+	width: 100%;
+	.owl-next{
+		float:right;
 	}
 }
 .carrusel{
-	// padding-top: 50px;
-	// padding-bottom: 50px;
 	box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);	
 }
 .owl-dots{

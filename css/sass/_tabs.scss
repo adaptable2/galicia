@@ -1,0 +1,37 @@
+.tabs-videos{
+	.nav-tabs{
+		li{
+			width: 50%;
+			&:first-child{
+				a{
+					border-radius: 10px 0 0 0;
+				}
+			}
+		}
+	}
+}
+.nav-tabs{
+	li{
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		a.nav-link{
+			background: $grisSecundario;
+			color: $gris;
+			border-radius: 0;
+			border:none; 
+			&.active{
+				background: $colorPrincipal;
+				color: white;
+			}
+		}
+	}
+}
+.tab-carousel{
+	.nav-tabs{
+		a.nav-link{
+			border-radius: 0 10px 0 0;
+			pointer-events: none;
+		}
+	}
+}
