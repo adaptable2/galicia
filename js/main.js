@@ -23,5 +23,5 @@ $(document).ready(function(){
 	    margin:0,
 	    nav:true,
 	    items:1
-	})
+	});
 });

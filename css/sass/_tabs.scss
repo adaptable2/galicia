@@ -1,3 +1,7 @@
+.tabs{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .tabs-videos{
 	.nav-tabs{
 		li{
@@ -7,6 +11,16 @@
 					border-radius: 10px 0 0 0;
 				}
 			}
+		}
+	}
+}
+.carou-proyectos{
+	.owl-nav{
+		button[type="button"]{
+			padding: 10px !important;
+			font-size: 30px;
+			background: white;
+			color: $colorPrincipal;
 		}
 	}
 }

@@ -1,5 +1,5 @@
 .banner{
-	background: url('../img/banner_portada.png') no-repeat center center/ cover;
+	background: url('../img/banner_portada.png') no-repeat left center/ cover;
 	min-height: 100vh;
 	position: relative;
 	&:before{
@@ -15,16 +15,54 @@
 	&:after{
 		content: "";
 		display: block;
-		width: 400px;
+		width: 100%;
+		max-width: 600px;
 		height: 800px;
 		position: absolute;
 		bottom: -130px;
 		left: 0px;
 		background: url('../img/personas.png') no-repeat center bottom/ contain;
 	}
+	#conversion-proyecto-galicia-a946225ebf306e3b256b{
+		background-color: transparent !important;
+	}
+	#conversion-proyecto-galicia-a946225ebf306e3b256b div.actions .call_button{
+	    font-size: 15px !important;
+	    display: inline-block !important;
+	    width: auto !important;
+	    color: white !important;
+	    font-weight: 400 !important;
+	    border-radius: 2px !important;
+	    padding: 10px !important;
+	}
+	#conversion-proyecto-galicia-a946225ebf306e3b256b section div.actions{
+		text-align: left !important;
+	}
+	#conversion-proyecto-galicia-a946225ebf306e3b256b form input{
+		border-color: rgba(0,0,0,.1) !important;
+    	border-radius: 2px !important;
+    	padding: 20px !important;
+	}
 }
+.form{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+#conversion-proyecto-galicia-a946225ebf306e3b256b form p.notice{
+	color: $gris;
+}
+ .form-banner{
+ 	font-size: 110%;
+ 	width: auto;
+ 	margin: 0 auto;
+ 	font-size: 110%;
+ 	max-width: 500px;
+ 	border-radius: 5px;
+ 	background: rgba(255,255,255,0.8);
+ }
 .text-banner{
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-bottom: 30px;
 	p{
 		margin-bottom: 0;

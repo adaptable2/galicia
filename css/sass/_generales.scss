@@ -16,6 +16,9 @@ body{
 	&-gris{
 		color:$gris;
 	}
+	&-white{
+		color:white;
+	}
 }
 .bg{
 	&-prin{
@@ -40,8 +43,4 @@ body{
     position: absolute;
     top: 0;
     width: 100%;
-}
-small{
-	font-size: 8px;
-	line-height: 8px;
 }
