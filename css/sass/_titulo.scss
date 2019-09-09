@@ -2,24 +2,33 @@
 	padding-top: 50px;
 	padding-bottom: 80px;
 	text-align: center;
-	background: url('../img/triagle2.png') no-repeat left 70% / 50px;
+	background: url('../img/triagle2.png') no-repeat 50% 80% / 30px;
+	@media only screen and (min-width: 768px){
+		background: url('../img/triagle2.png') no-repeat left 70% / 50px;
+	}
 	h3{
-		display: inline-block;
-		margin-bottom: 0;
-		font-size: 36px;
-		text-align: right;
-		max-width: 700px;
-		width: 100%;
+		font-size: 20px;
+		@media only screen and (min-width: 768px){
+			display: inline-block;
+			margin-bottom: 0;
+			font-size: 36px;
+			text-align: right;
+			max-width: 700px;
+			width: 100%;
+		}
 	}
 	h2{
-		width: 100%;
-		display: inline-block;
-		max-width: 700px;
-		font-size: 100px; 
-		line-height: 100px;
-		margin-bottom: 0;
+		font-size: 35px; 
 		color: $colorPrincipal;
-		font-weight: 700;
+		@media only screen and (min-width: 768px){
+			width: 100%;
+			display: inline-block;
+			max-width: 700px;
+			font-size: 100px; 
+			line-height: 100px;
+			margin-bottom: 0;
+			font-weight: 700;
+		}
 	}
 }
 
