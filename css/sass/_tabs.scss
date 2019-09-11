@@ -3,7 +3,6 @@
 	padding-bottom: 50px;
 }
 .tabs-videos{
-	background: black;
 	.nav-tabs{
 		li{
 			width: 50%;
@@ -43,6 +42,7 @@
 			color: $gris;
 			border-radius: 0;
 			border:none; 
+			font-size: 15px;
 			&.active{
 				background: $colorPrincipal;
 				color: white;
@@ -51,6 +51,16 @@
 	}
 }
 .tab-carousel{
+	a{
+		span{
+			color: white;
+			background: $colorPrincipal;
+			padding: 10px 30px;
+			position: absolute;
+			right: 15px;
+			bottom: 30px;
+		}
+	}
 	.nav-tabs{
 		a.nav-link{
 			border-radius:0;
@@ -60,4 +70,25 @@
 			}
 		}
 	}
+}
+.tab-carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    .tab-content{
+    	background: url('../img/galeria/miniatura.jpg') no-repeat top center / cover;
+		height: 300px;
+		@media only screen and (min-width: 768px){
+			height: 100%;
+		}
+		.tab-pane{
+			height: 100%;
+			position: relative;
+		}
+		a{
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+    }
 }

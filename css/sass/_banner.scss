@@ -3,18 +3,43 @@
 	min-height: 100vh;
 	position: relative;
 	padding-top: 80px;
-	@media only screen and (min-width: 768px){
-		padding-top: 0px;	
+	padding-bottom: 80px;
+	@media only screen and (min-width: 992px){
+		padding-top: 0px;
+		padding-bottom: 0px;	
+	}
+	h2{
+		font-size: 20px;
+		@media only screen and (min-width: 768px){
+			font-size: 30px;
+		}
+	}
+	p{
+		font-size: 15px;
+		@media only screen and (min-width: 768px){
+			font-size: 17px;
+		}	
+	}
+	.text-form-bn{
+		padding-bottom: 0;
 	}
 	&:before{
 		content: "";
+	    width: 100px;
+	    height: 83px;
+	    top: 0px;
+	    right: 30px;
+	    background: url(../img/sector.png) no-repeat center center/contain;
 		display: block;
-		width: 200px;
-		height: 114px;
 		position: absolute;
-		top: 30px;
-		left: 30px;
-		background: url('../img/sector.png') no-repeat center center/ contain;
+		@media only screen and (min-width: 768px){
+			width: 200px;
+			height: 114px;
+			top: 30px;
+			left: 30px;
+			right: inherit;
+			background: url('../img/sector.png') no-repeat center center/ contain;
+		}
 	}
 	&:after{
 		display: none;
@@ -22,7 +47,7 @@
 			content: "";
 			display: block;
 			width: 100%;
-			max-width: 600px;
+			max-width: 400px;
 			height: 800px;
 			position: absolute;
 			bottom: -200px;
