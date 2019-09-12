@@ -18,6 +18,11 @@
 		}
 		&.bottom{
 			position: relative;
+			font-size: 20px;
+			a{
+				color:white;
+				cursor: pointer;
+			}
 			&:last-child{
 				&:after{
 					content: "";
@@ -36,14 +41,16 @@
 		content: "";
 		display: block;
 		position: absolute;
-		bottom: 30px;
-		right: 30px;
+		bottom: 15px;
+		right: 15px;
 		width: 0;
 		height: 0;
 		border-style: solid;
 		border-color: transparent transparent $colorSecundario transparent;
-		border-width: 0 0 50px 50px;
+		border-width: 0 0 30px 30px;
 		@media only screen and (min-width: 768px){
+			bottom: 30px;
+			right: 30px;
 			border-width: 0 0 80px 80px;
 		}
 	}
